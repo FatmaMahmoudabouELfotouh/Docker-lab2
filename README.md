@@ -13,7 +13,7 @@
 
     3- Echo any contentto show when curl ip-address
       -> cd /user/share/nginx/html
-      -> echo "Welcome from bind mount "> index.html
+      -> echo "Welcome from bind mount "
       -> exit
       -> docker inspect -f '{{.NetworkSetting.IPAddress}}' nginx_BindMount   
       -> 172.17.0.2
